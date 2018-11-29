@@ -9,9 +9,9 @@ import (
 	admissionv1beta1 "k8s.io/api/admission/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/slok/kubewebhook/pkg/observability/metrics"
-	"github.com/slok/kubewebhook/pkg/webhook"
-	"github.com/slok/kubewebhook/pkg/webhook/internal/helpers"
+	"github.com/paalka/kubewebhook/pkg/observability/metrics"
+	"github.com/paalka/kubewebhook/pkg/webhook"
+	"github.com/paalka/kubewebhook/pkg/webhook/internal/helpers"
 )
 
 // Webhook is a webhook wrapper that instruments the webhook with metrics and tracing.

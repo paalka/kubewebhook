@@ -1,4 +1,4 @@
-module github.com/slok/kubewebhook
+module github.com/paalka/kubewebhook
 
 require (
 	github.com/appscode/jsonpatch v0.0.0-20180911074601-5af499cf01c8

@@ -13,11 +13,11 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 
-	"github.com/slok/kubewebhook/pkg/log"
-	"github.com/slok/kubewebhook/pkg/observability/metrics"
-	"github.com/slok/kubewebhook/pkg/webhook"
-	"github.com/slok/kubewebhook/pkg/webhook/internal/helpers"
-	"github.com/slok/kubewebhook/pkg/webhook/internal/instrumenting"
+	"github.com/paalka/kubewebhook/pkg/log"
+	"github.com/paalka/kubewebhook/pkg/observability/metrics"
+	"github.com/paalka/kubewebhook/pkg/webhook"
+	"github.com/paalka/kubewebhook/pkg/webhook/internal/helpers"
+	"github.com/paalka/kubewebhook/pkg/webhook/internal/instrumenting"
 )
 
 // WebhookConfig is the Mutating webhook configuration.

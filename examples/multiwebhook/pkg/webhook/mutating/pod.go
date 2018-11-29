@@ -2,10 +2,10 @@ package mutating
 
 import (
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/slok/kubewebhook/pkg/log"
-	"github.com/slok/kubewebhook/pkg/observability/metrics"
-	"github.com/slok/kubewebhook/pkg/webhook"
-	"github.com/slok/kubewebhook/pkg/webhook/mutating"
+	"github.com/paalka/kubewebhook/pkg/log"
+	"github.com/paalka/kubewebhook/pkg/observability/metrics"
+	"github.com/paalka/kubewebhook/pkg/webhook"
+	"github.com/paalka/kubewebhook/pkg/webhook/mutating"
 	corev1 "k8s.io/api/core/v1"
 )
 

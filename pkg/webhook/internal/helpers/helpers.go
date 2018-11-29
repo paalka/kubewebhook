@@ -8,7 +8,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/slok/kubewebhook/pkg/log"
+	"github.com/paalka/kubewebhook/pkg/log"
 )
 
 // ToAdmissionErrorResponse transforms an error into a admission response with error.

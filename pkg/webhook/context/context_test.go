@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	admissionv1beta1 "k8s.io/api/admission/v1beta1"
 
-	whcontext "github.com/slok/kubewebhook/pkg/webhook/context"
+	whcontext "github.com/paalka/kubewebhook/pkg/webhook/context"
 )
 
 func TestAdmissionRequestContext(t *testing.T) {

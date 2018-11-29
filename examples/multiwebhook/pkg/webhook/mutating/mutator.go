@@ -8,7 +8,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/slok/kubewebhook/pkg/log"
+	"github.com/paalka/kubewebhook/pkg/log"
 )
 
 // podLabelMutator will add labels to a pod. Satisfies mutating.Mutator interface.

@@ -9,9 +9,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	whhttp "github.com/slok/kubewebhook/pkg/http"
-	"github.com/slok/kubewebhook/pkg/observability/metrics"
-	"github.com/slok/kubewebhook/pkg/webhook/mutating"
+	whhttp "github.com/paalka/kubewebhook/pkg/http"
+	"github.com/paalka/kubewebhook/pkg/observability/metrics"
+	"github.com/paalka/kubewebhook/pkg/webhook/mutating"
 )
 
 // Prometheus shows how to serve a webhook and its prometheus metrics in a separate server.

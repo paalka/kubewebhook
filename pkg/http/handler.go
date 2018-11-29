@@ -11,8 +11,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 
-	"github.com/slok/kubewebhook/pkg/webhook"
-	whcontext "github.com/slok/kubewebhook/pkg/webhook/context"
+	"github.com/paalka/kubewebhook/pkg/webhook"
+	whcontext "github.com/paalka/kubewebhook/pkg/webhook/context"
 )
 
 var (

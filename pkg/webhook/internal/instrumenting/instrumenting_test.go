@@ -9,10 +9,10 @@ import (
 	admissionv1beta1 "k8s.io/api/admission/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	mmetrics "github.com/slok/kubewebhook/mocks/observability/metrics"
-	mwebhook "github.com/slok/kubewebhook/mocks/webhook"
-	"github.com/slok/kubewebhook/pkg/observability/metrics"
-	"github.com/slok/kubewebhook/pkg/webhook/internal/instrumenting"
+	mmetrics "github.com/paalka/kubewebhook/mocks/observability/metrics"
+	mwebhook "github.com/paalka/kubewebhook/mocks/webhook"
+	"github.com/paalka/kubewebhook/pkg/observability/metrics"
+	"github.com/paalka/kubewebhook/pkg/webhook/internal/instrumenting"
 )
 
 func TestInstrumentedMetricsWebhook(t *testing.T) {

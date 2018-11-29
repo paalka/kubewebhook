@@ -13,8 +13,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/slok/kubewebhook/pkg/log"
-	"github.com/slok/kubewebhook/pkg/webhook/mutating"
+	"github.com/paalka/kubewebhook/pkg/log"
+	"github.com/paalka/kubewebhook/pkg/webhook/mutating"
 )
 
 func getPodJSON() []byte {
