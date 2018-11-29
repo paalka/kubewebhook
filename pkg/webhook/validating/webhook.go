@@ -121,7 +121,7 @@ func (w *staticWebhook) Review(ctx context.Context, ar *admissionv1beta1.Admissi
 		Result: &metav1.Status{
 			Status:  metav1.StatusSuccess,
 			Message: res.Message,
-			Reason:  res.Message,
+			Reason:  metav1.StatusReason(res.Message),
 		},
 	}
 }
