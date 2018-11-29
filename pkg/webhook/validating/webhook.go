@@ -114,7 +114,7 @@ func (w *staticWebhook) Review(ctx context.Context, ar *admissionv1beta1.Admissi
 		return w.toAdmissionErrorResponse(ar, err)
 	}
 
-	var status metav1.StatusReason
+	var status string
 	if res.Valid {
 		status = metav1.StatusSuccess
 	} else {
