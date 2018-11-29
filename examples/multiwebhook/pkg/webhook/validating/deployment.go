@@ -2,10 +2,10 @@ package validating
 
 import (
 	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/slok/kubewebhook/pkg/log"
-	"github.com/slok/kubewebhook/pkg/observability/metrics"
-	"github.com/slok/kubewebhook/pkg/webhook"
-	"github.com/slok/kubewebhook/pkg/webhook/validating"
+	"github.com/paalka/kubewebhook/pkg/log"
+	"github.com/paalka/kubewebhook/pkg/observability/metrics"
+	"github.com/paalka/kubewebhook/pkg/webhook"
+	"github.com/paalka/kubewebhook/pkg/webhook/validating"
 	extensionsv1beta1 "k8s.io/api/extensions/v1beta1"
 )
 

@@ -13,8 +13,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	mwebhook "github.com/slok/kubewebhook/mocks/webhook"
-	kubewebhookhttp "github.com/slok/kubewebhook/pkg/http"
+	mwebhook "github.com/paalka/kubewebhook/mocks/webhook"
+	kubewebhookhttp "github.com/paalka/kubewebhook/pkg/http"
 )
 
 func getTestAdmissionReviewRequestStr(uid string) string {

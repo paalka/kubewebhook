@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	admissionv1beta1 "k8s.io/api/admission/v1beta1"
 
-	"github.com/slok/kubewebhook/pkg/observability/metrics"
+	"github.com/paalka/kubewebhook/pkg/observability/metrics"
 )
 
 func TestPrometheus(t *testing.T) {

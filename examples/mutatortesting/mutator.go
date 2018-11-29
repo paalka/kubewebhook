@@ -6,7 +6,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/slok/kubewebhook/pkg/webhook/mutating"
+	"github.com/paalka/kubewebhook/pkg/webhook/mutating"
 )
 
 // PodLabeler is a mutator that will set labels on the received pods.
