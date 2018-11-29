@@ -117,8 +117,6 @@ func (w *staticWebhook) Review(ctx context.Context, ar *admissionv1beta1.Admissi
 	var status string
 	if res.Valid {
 		status = metav1.StatusSuccess
-	} else {
-		status = metav1.StatusReasonInvalid
 	}
 
 	// Forge response.
